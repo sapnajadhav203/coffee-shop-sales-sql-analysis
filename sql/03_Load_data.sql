@@ -1,0 +1,6 @@
+LOAD DATA LOCAL INFILE "C:/Users/itssa/Downloads/Coffee_Shop_Sales.csv"
+INTO TABLE coffee_sales
+FIELDS TERMINATED BY ',' 
+OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY '\n'
+IGNORE 1 ROWS;
